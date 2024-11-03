@@ -63,3 +63,8 @@ th{
 .status-rejected {
   color: red;
 }
+
+option{
+    background-color: #e1f7ff;
+    color: #005272;
+}
