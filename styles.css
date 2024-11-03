@@ -15,13 +15,13 @@ table {
 }
 
 body{
-    padding: 20px 100px;
+    padding: 40px 100px;
     text-align: center;
-    background-color: #e1f7ff;
+    background-color: #000f53;
 }
 
 form{
-    background-color: #005272;
+    background-color: #020480;
     padding: 10px;
     display: flex;
     justify-content: center;
@@ -34,13 +34,14 @@ input,select,button{
 }
 
 h1{
-    color: #005272;
+    color: #fff;
+    text-transform: uppercase;
 }
 
 table,
 th,
 td {
-  border: 1px solid #005272;
+  border: 1px solid #000a41;
   padding: 10px;
 }
 
@@ -50,8 +51,8 @@ tbody{
 }
 
 th{
-    color: #ddd;
-    background-color: #006b96;
+    color: #fff;
+    background-color: #020480;
 }
 
 .status-applied {
