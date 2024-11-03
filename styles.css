@@ -1,7 +1,65 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
+form,
+table {
+  margin: 20px 0;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+body{
+    padding: 20px 100px;
+    text-align: center;
+    background-color: #e1f7ff;
+}
+
+form{
+    background-color: #005272;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+input,select,button{
+    padding: 10px;
+    width: 250px;
+}
+
+h1{
+    color: #005272;
+}
+
+table,
+th,
+td {
+  border: 1px solid #005272;
+  padding: 10px;
+}
+
+tbody{
+    background-color: #fff;
+    border: #005272 1px solid;
+}
+
+th{
+    color: #ddd;
+    background-color: #006b96;
+}
+
+.status-applied {
+  color: blue;
+}
+.status-interview {
+  color: green;
+}
+.status-rejected {
+  color: red;
+}
