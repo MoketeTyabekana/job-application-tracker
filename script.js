@@ -22,6 +22,13 @@ function addJobApplication(){
 
   const row =applicationsTable.insertRow();
 
+  const companyCell=row.insertCell(0);
+  const titleCell=row.insertCell(1);
+  const dateCell=row.insertCell(2);
+  const statusCell=row.insertCell(3);
+  const actionCell=row.insertCell(4);
+
+
 }
 
 
