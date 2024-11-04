@@ -20,6 +20,8 @@ function addJobApplication(){
   const date =document.getElementById('date');
   const status =document.getElementById('status');
 
+  const row =applicationsTable.insertRow();
+
 }
 
 
