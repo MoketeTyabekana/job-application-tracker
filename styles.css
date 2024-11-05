@@ -105,4 +105,9 @@ form{
   gap: 5px;
 }
 
+input,select,button{
+  padding: 10px;
+  width: 100%;
+}
+
 }
