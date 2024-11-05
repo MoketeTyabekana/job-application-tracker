@@ -84,9 +84,13 @@ option{
 }
 
 
+.table-container{
+  overflow-x: auto;
+}
+
 /* Responsiveness Code */
 
-@media (min-width:350px) and (max-width:844px){
+@media (min-width:350px) and (max-width:1024px){
   h1{
     font-size:medium;
 }
