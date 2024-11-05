@@ -29,6 +29,14 @@ function addJobApplication(){
   const actionCell=row.insertCell(4);
 
 
+  companyCell.textContent=company;
+  titleCell.textContent=title;
+  dateCell.textContent=date;
+  statusCell.textContent=status;
+  statusCell.className='status-${status.toLowerCase().replace("","-")}';
+
+ 
+
 }
 
 
